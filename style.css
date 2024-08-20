@@ -1,15 +1,15 @@
 @font-face {
     font-family: "Montserrat";
-    src: url("./font/Montserrat-Black.ttf") format("woff2"),
-        url("./font/Montserrat-Black.ttf") format("woff");
-    font-weight: 700;
+    src: url("./font/Montserrat-Light.ttf") format("woff2"),
+        url("./font/Montserrat-Light.ttf") format("woff");
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: "Montserrat";
-    src: url("./font/Montserrat-Black.ttf") format("woff2"),
-        url("./font/Montserrat-Black.ttf") format("woff");
+    src: url("./font/Montserrat-Light.ttf") format("woff2"),
+        url("./font/Montserrat-Light.ttf") format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -161,3 +161,78 @@
     display: flex;
     align-items: center;
   }
+  .main{
+    margin: 0 160px 56px;
+  }
+  .main_list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .main_list-item-h2{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: 
+    #21211F;
+  }
+  .main_list-item-h2--color{
+    color:   
+#AFAFAF;
+  }
+  .main_list-item-link{
+    display: flex;
+    align-items: center;
+  }
+  .icon--margin{
+    margin-right: 8px;
+  }
+  .main_section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+  }
+  .main_section-button{
+    box-sizing: border-box;
+    width: 107px;
+    height: 36px;
+    background-color: 
+    #0B1547;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 24px;
+  }
+  .main_section-button-h2{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .main_section-h2{
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .section_img{
+    display: grid;
+    grid-template-columns: 141px 632px;
+    column-gap: 32px;
+    row-gap: 16px;
+  }
+  .section_img-img1,
+  .section_img-img2,
+  .section_img-img3,
+  .section_img-img4{
+    grid-column-start: 1;
+  }
+  .section_img-img5{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 2;
+  }
+  
